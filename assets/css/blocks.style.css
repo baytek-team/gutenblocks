@@ -1,0 +1,25 @@
+.wp-block-baytek-toggle {
+  margin-bottom: 1em;
+  border-bottom: 2px solid; }
+  .wp-block-baytek-toggle .toggle-header {
+    position: relative;
+    cursor: pointer;
+    padding-right: 30px; }
+    .wp-block-baytek-toggle .toggle-header:after {
+      position: absolute;
+      bottom: 5px;
+      right: 0;
+      content: ' ';
+      width: 20px;
+      height: 20px;
+      background-image: url("../images/chevron-down.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      transition: transform 0.2s ease; }
+  .wp-block-baytek-toggle .toggle-body {
+    display: none;
+    margin-top: 1em; }
+  .wp-block-baytek-toggle.expanded .toggle-header:after, .wp-block-baytek-toggle.is-selected .toggle-header:after {
+    transform: rotate(180deg); }
+  .wp-block-baytek-toggle.expanded .toggle-body, .wp-block-baytek-toggle.is-selected .toggle-body {
+    display: block; }

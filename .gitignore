@@ -1,0 +1,9 @@
+composer.lock
+/node_modules/
+/vendor/
+/logs/
+/reports/
+
+# Should be in .gitignore_global config but included just in case
+.DS_Store
+.DS_Store?
