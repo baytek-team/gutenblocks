@@ -10,7 +10,7 @@
  * Plugin Name: Baytek Gutenberg Blocks
  * Plugin URI:  https://baytek.ca
  * Description: A WordPress plugin for housing handy Gutenberg blocks not included in core yet or custom ones required by your site.
- * Version:     0.1.1
+ * Version:     0.1.2
  * Author:      Chad Sehn <chad@baytek.ca>
  * Author URI:  https://baytek.ca
  * Text Domain: baytek-gutenberg
