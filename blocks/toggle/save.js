@@ -10,7 +10,7 @@ import classnames from 'classnames';
 const { 
 	RichText,
 	InnerBlocks,
-} = wp.editor;
+} = wp.blockEditor;
 
 
 /**
