@@ -1,0 +1,67 @@
+// Styles for the Front End and Editor Views
+
+.slider-block {
+	blockquote {
+		border-left: none;
+		margin-bottom: 1em;
+	}
+	padding: 20px;
+	background: #f3f3f3;
+	margin-bottom: 1em;
+    border-radius: 10px;
+	min-height: 160px;
+}
+
+.baytek_carousel-slider {
+    margin-bottom: 2em;
+}
+
+.baytek_carousel-text {
+	font-size: 1.5em;
+	line-height: 1.5;
+	font-style: normal;
+}
+
+.baytek_carousel-author-container {
+	text-align: center;
+}
+
+.baytek_carousel-author-link,
+.baytek_carousel-author-name {
+	padding-left: 12px;
+	margin-bottom: 5px;
+	font-style: normal;
+}
+
+span.baytek_carousel-author {
+	font-style: normal;
+}
+
+
+// slider
+.slider-block.baytek_carousel-slider {
+	blockquote {
+		border-left: none;
+	}
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 10px;
+	margin-bottom: 1em;
+	min-height: 160px;
+}
+
+.slide__image__wrapper {
+	position: relative;
+
+	.slide__image__inner {
+		width: 100px;
+		height: 100px;
+		margin-left: 0;
+		border-radius: .4rem;
+		overflow: hidden;
+		border: 1px solid #dadada;
+		font-size: .8em;
+		background-size: cover;
+		background-position: center;
+	}
+}

@@ -40,6 +40,15 @@ function enqueue_assets() {
 		null,
 		filemtime( _get_plugin_directory() . $style_path )
 	);
+
+	$slick_style_path = '/blocks/slider/lib/slick/slick.css';
+	wp_enqueue_style(
+		'baytek-slider',
+		_get_plugin_url() . $slick_style_path,
+		null,
+		filemtime( _get_plugin_directory() . $slick_style_path )
+	);
+
 }
 
 add_action( 'enqueue_block_assets', __NAMESPACE__ . '\enqueue_frontend_assets' );
@@ -53,6 +62,15 @@ function enqueue_frontend_assets() {
 		return;
 	}
 
+	$slick_path = '/blocks/slider/lib/slick/slick.min.js';
+	wp_enqueue_script(
+		'baytek-slider-slick',
+		_get_plugin_url() . $slick_path,
+		['jquery'],
+		filemtime( _get_plugin_directory() . $slick_path ),
+		true
+	);
+	
 	$block_path = '/assets/js/frontend.blocks.js';
 	wp_enqueue_script(
 		'baytek-blocks-frontend',

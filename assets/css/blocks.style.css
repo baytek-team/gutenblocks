@@ -1,25 +1,2 @@
-.wp-block-baytek-toggle {
-  margin-bottom: 1em;
-  border-bottom: 2px solid; }
-  .wp-block-baytek-toggle .toggle-header {
-    position: relative;
-    cursor: pointer;
-    padding-right: 30px; }
-    .wp-block-baytek-toggle .toggle-header:after {
-      position: absolute;
-      bottom: 5px;
-      right: 0;
-      content: ' ';
-      width: 20px;
-      height: 20px;
-      background-image: url("../images/chevron-down.svg");
-      background-repeat: no-repeat;
-      background-size: contain;
-      transition: transform 0.2s ease; }
-  .wp-block-baytek-toggle .toggle-body {
-    display: none;
-    margin-top: 1em; }
-  .wp-block-baytek-toggle.expanded .toggle-header:after, .wp-block-baytek-toggle.is-selected .toggle-header:after {
-    transform: rotate(180deg); }
-  .wp-block-baytek-toggle.expanded .toggle-body, .wp-block-baytek-toggle.is-selected .toggle-body {
-    display: block; }
+.wp-block-baytek-toggle{margin-bottom:1em;border-bottom:2px solid}.wp-block-baytek-toggle .toggle-header{position:relative;cursor:pointer;padding-right:30px}.wp-block-baytek-toggle .toggle-header:after{position:absolute;bottom:5px;right:0;content:' ';width:20px;height:20px;background-image:url("../images/chevron-down.svg");background-repeat:no-repeat;background-size:contain;transition:transform 0.2s ease}.wp-block-baytek-toggle .toggle-body{display:none;margin-top:1em}.wp-block-baytek-toggle.expanded .toggle-header:after,.wp-block-baytek-toggle.is-selected .toggle-header:after{transform:rotate(180deg)}.wp-block-baytek-toggle.expanded .toggle-body,.wp-block-baytek-toggle.is-selected .toggle-body{display:block}
+.slider-block{padding:20px;background:#f3f3f3;margin-bottom:1em;border-radius:10px;min-height:160px}.slider-block blockquote{border-left:none;margin-bottom:1em}.baytek_carousel-slider{margin-bottom:2em}.baytek_carousel-text{font-size:1.5em;line-height:1.5;font-style:normal}.baytek_carousel-author-container{text-align:center}.baytek_carousel-author-link,.baytek_carousel-author-name{padding-left:12px;margin-bottom:5px;font-style:normal}span.baytek_carousel-author{font-style:normal}.slider-block.baytek_carousel-slider{background:#f3f3f3;padding:10px;border-radius:10px;margin-bottom:1em;min-height:160px}.slider-block.baytek_carousel-slider blockquote{border-left:none}.slide__image__wrapper{position:relative}.slide__image__wrapper .slide__image__inner{width:100px;height:100px;margin-left:0;border-radius:.4rem;overflow:hidden;border:1px solid #dadada;font-size:.8em;background-size:cover;background-position:center}

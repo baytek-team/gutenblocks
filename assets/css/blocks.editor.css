@@ -1,5 +1,2 @@
-.wp-block.is-selected .wp-block-baytek-toggle .toggle-header:after {
-  transform: rotate(180deg); }
-
-.wp-block-baytek-toggle .toggle-body {
-  margin-top: 1em; }
+.wp-block.is-selected .wp-block-baytek-toggle .toggle-header:after{transform:rotate(180deg)}.wp-block-baytek-toggle .toggle-body{margin-top:1em}
+.slider-block{background:#fafafa;border-radius:.4rem;border:1px solid #cacaca}.slider-block .insert-slide{margin-top:0;margin-bottom:1rem}.content-plain-text{min-height:70px !important}.wp-block-quote{margin-bottom:0.5em;padding-left:0}button.add-more-slides{height:35px;width:35px;background:#939393;border-radius:50%;position:relative;border:none;font-size:2em;color:white;line-height:1}span.remove-slide{right:30px;position:absolute;height:1rem;width:1rem}span.remove-slide i{height:1rem;width:1rem}textarea.editor-plain-text.content-plain-text,textarea.editor-plain-text.author-plain-text,textarea.editor-plain-text.link-plain-text{background:#fafafa;border:1px solid #dadada;border-radius:.4rem;padding:.5rem}.slide__image__wrapper{position:relative}.slide__image__wrapper a{cursor:pointer}.slide__image__wrapper .slide__image__wrapper__actions{position:absolute;bottom:-30px;left:0;right:30px;font-size:.8em;text-align:center}.slide__image__inner{display:block;cursor:pointer;line-height:100px;text-align:center}
