@@ -1,4 +1,8 @@
 // Slick Slider
-jQuery('.carousel-slider').slick({
-  dots: true,
-});
+(function($){
+	// Handle menu interactions
+	$('.carousel-slider').slick({
+	  dots: true,
+	});
+
+})(jQuery);
