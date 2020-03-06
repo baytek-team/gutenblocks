@@ -133,18 +133,12 @@ registerBlockType( 'baytek/modal-block', {
       default: "#ffffff"  
     },
     modalPadding: {
-      type: "string"
-    },
-    titleSize: {
       type: "string",
-      default: "" 
-    },
-    titleColor: {
-      type: "string",
-      default: "#000000"  
+      default: "3rem"
     },
     titlePadding: {
-      type: "string"
+      type: "string",
+      default: "3rem"
     },
     modalRadius: {
       type: "string",
@@ -322,7 +316,7 @@ registerBlockType( 'baytek/modal-block', {
                 color={ attributes.modalBackgdColor }
                 onChangeComplete={ ( color ) => setAttributes({ modalBackgdColor: 'rgba(' + color.rgb.r + ',' + color.rgb.g + ',' + color.rgb.b + ',' + color.rgb.a + ')'}) }
               />
-              
+
             </PanelBody>
             
           </InspectorControls>
@@ -369,9 +363,9 @@ registerBlockType( 'baytek/modal-block', {
             <div id=""  style={baytekFormatStyles ({'padding': attributes.modalPadding})} className="baytek-modal-content">
               {<InnerBlocks.Content/>}
             </div> {/* end content */}
-            
+            <div className="baytek-block-popup-closer"></div>
           </div> {/* end modal content */}
-          <div className="baytek-block-popup-closer"></div>
+          
         </div>
 
       </div>
