@@ -1,14 +1,10 @@
 /**
- * External dependencies
- */
-import { range } from 'lodash';
-
-/**
  * WordPress dependencies
  */
 const { __, sprintf } = wp.i18n;
 const { Component } = wp.element;
 const { Toolbar } = wp.components;
+const { range } = lodash;
 
 /**
  * Internal dependencies
